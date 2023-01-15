@@ -1,8 +1,8 @@
 #Data Importing and Cleansing
 import pandas as pd
-listing = pd.read_csv('E:/airbnb/airbnb project/DQLab_listings.csv', sep = ',')
-nbhood = pd.read_csv('E:/airbnb/airbnb project/DQLab_nieghbourhood.csv', sep = ',')
-rvw = pd.read_csv('E:/airbnb/airbnb project/DQLab_reviews.csv', sep = ',')
+listing = pd.read_csv('DQLab_listings.csv', sep = ',')
+nbhood = pd.read_csv('DQLab_nieghbourhood.csv', sep = ',')
+rvw = pd.read_csv('E:DQLab_reviews.csv', sep = ',')
 
 #Listing dataset cleansing
 listing = listing[listing['minimum_nights']<=365].reset_index() #hapus penginapan yang minimum_nights>1 tahun
