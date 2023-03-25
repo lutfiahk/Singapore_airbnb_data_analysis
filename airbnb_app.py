@@ -21,8 +21,10 @@ rvw = rvw.sort_values('date')
 
 #Data Merging
 import pandasql as ps
-listing_nbgroup = ps.sqldf(""" select b.id, b.name, a.neighbourhood_group,b.room_type, b.neighbourhood,b.longitude, b.latitude, b.minimum_nights, b.price, (365-b.availability_365) rented_365 from nbhood a join listing b on a.neighbourhood=b.neighbourhood""")
-listing_reviews = ps.sqldf(""" select a.date, strftime('%Y-%m', a.date) month, strftime('%Y', a.date) year, b.id,b.name, b.room_type, b.neighbourhood, c.neighbourhood_group, b.price, b.minimum_nights, (365-b.availability_365) rented_365 from rvw a left join listing b on a.listing_id=b.id join nbhood c on b.neighbourhood = c.neighbourhood""")
+listing_nbgroup = pd.merge(nbhood, listing, on = 'neighbourhood')
+listing_nbgroup['rented_365'] = 365 - listing_nbgroup['availability_365']
+listing_nbgroup
+listing_reviews = pd.read_csv('listing_reviews.csv', sep = ',')
 
 #Data Visualization
 import plotly.express as px
