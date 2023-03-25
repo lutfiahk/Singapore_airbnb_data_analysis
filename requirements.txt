@@ -1,6 +1,5 @@
 pandas
-pandasql
+pandasql==1.16.0
 numpy
 streamlit
-plotly
-sqlalchemy
+plotly==5.1.0
