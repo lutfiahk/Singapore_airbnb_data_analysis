@@ -23,7 +23,6 @@ rvw = rvw.sort_values('date')
 import pandasql as ps
 listing_nbgroup = pd.merge(nbhood, listing, on = 'neighbourhood')
 listing_nbgroup['rented_365'] = 365 - listing_nbgroup['availability_365']
-listing_nbgroup
 listing_reviews = pd.read_csv('listing_reviews.csv', sep = ',')
 
 #Data Visualization
