@@ -255,8 +255,6 @@ st.markdown('''<p style='text-align: justify; color: white;'>
          lama sewa, lama suatu kamar tersewa dalam satu tahun, dan banyaknya review yang diperoleh dalam 5 tahun. 
          Sehingga, pebisnis lebih baik melakukan riset lanjutan dengan melihat fasilitas atau keunikan apa yang 
          belum disediakan oleh kompetitor sehingga dapat lebih unggul dan menambah daya tarik pelanggan.
-         </p>''', unsafe_allow_html=True)
-st.markdown('''<p style='text-align: justify; color: white;'>   
          * Untuk menentukan harga yang tepat untuk ditawarkan, pebisnis dapat melakukan pemodelan prediksi harga 
          secara statistik, contohnya dengan regresi. Untuk mendapatkan prediksi yang lebih baik dan akurat, pebisnis
          dapat mengumpulkan kembali lebih banyak data, atau menambah variabel - variabel yang mungkin memiliki 
