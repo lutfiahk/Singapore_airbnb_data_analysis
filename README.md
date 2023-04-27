@@ -23,7 +23,9 @@ Project ini akan bertujuan untuk menganalisa bagaimana trend penyewaan kamar di 
   ![alt text](https://github.com/lutfiahusnakhoirunnisa/Singapore_airbnb_data_analysis/blob/main/plot/newplot2.png)
   <br>
 * Data Analysis
-  <br>Dilakukan untuk menganalisis keseluruhan data sehingga dapat ditarik insight dan informasi
+  <br>Dilakukan untuk menganalisis keseluruhan data sehingga dapat ditarik insight dan informasi<br>
+  Analisis Data dapat diakses pada file Notebook, dan kemudian Insight lainnya disajikan dalam suatu app Streamlit yang dapat diakses pada <br>
+  https://lutfiahusnakhoirunnisa-singapore-airbnb-data--airbnb-app-k4r7q9.streamlit.app/ <br>
 * Conclusion 
    <br>Ditarik kesimpulan dari hasil analisis berupa rekomendasi bisnis yang dapat digunakan
 
