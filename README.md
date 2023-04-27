@@ -16,7 +16,7 @@ Project ini akan bertujuan untuk menganalisa bagaimana trend penyewaan kamar di 
   Ditemukan pada dataset masih ada kamar yang berada di luar Singapura <br>
   ![alt text](https://github.com/lutfiahusnakhoirunnisa/Singapore_airbnb_data_analysis/blob/main/plot/newplot.png)
   <br>
-  Ditemukan ada harga sewa kamar yang bernilai 0
+  Ditemukan ada harga sewa kamar yang bernilai 0<br>
   ![alt text](https://github.com/lutfiahusnakhoirunnisa/Singapore_airbnb_data_analysis/blob/main/plot/newplot3.png)
   <br>
   Ditemukan ada minimal lama sewa kamar lebih dari satu tahun<br>
