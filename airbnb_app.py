@@ -1,8 +1,8 @@
 #Data Importing and Cleansing
 import pandas as pd
-listing = pd.read_csv('DQLab_listings.csv', sep = ',')
-nbhood = pd.read_csv('DQLab_nieghbourhood.csv', sep = ',')
-rvw = pd.read_csv('DQLab_reviews.csv', sep = ',')
+listing = pd.read_csv('Dataset/DQLab_listings.csv', sep = ',')
+nbhood = pd.read_csv('Dataset/DQLab_nieghbourhood.csv', sep = ',')
+rvw = pd.read_csv('Dataset/DQLab_reviews.csv', sep = ',')
 
 #Listing dataset cleansing
 listing = listing[listing['minimum_nights']<=365].reset_index() #hapus penginapan yang minimum_nights>1 tahun
@@ -20,10 +20,9 @@ rvw = rvw[rvw['listing_id'].isin(listing['id']) == True]
 rvw = rvw.sort_values('date')
 
 #Data Merging
-import pandasql as ps
 listing_nbgroup = pd.merge(nbhood, listing, on = 'neighbourhood')
 listing_nbgroup['rented_365'] = 365 - listing_nbgroup['availability_365']
-listing_reviews = pd.read_csv('listing_reviews.csv', sep = ',')
+listing_reviews = pd.read_csv('Dataset/listing_reviews.csv', sep = ',')
 
 #Data Visualization
 import plotly.express as px
