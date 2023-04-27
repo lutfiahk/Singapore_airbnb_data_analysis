@@ -249,12 +249,12 @@ st.markdown('''<p style='text-align: justify; color: white;'>
          kita tetap tidak dapat memutuskan jika harga memiliki pengaruh terhadap banyak review.
          </p>''', unsafe_allow_html=True)
 st.subheader('Business Recomendation')
-st.markdown('''<p style='text-align: justify; color: white;'>
+st.write('''<p style='text-align: justify; color: white;'>
          * Pada data 5 tahun terakhir tidak ada feature yang berkorelasi tinggi dengan harga sewa kamar, sehingga 
             tidak dapat disimpulkan bahwa harga yang diberikan berhubungan dengan feature pada dataset seperti minimal 
             lama sewa, lama suatu kamar tersewa dalam satu tahun, dan banyaknya review yang diperoleh dalam 5 tahun. 
             Sehingga, pebisnis lebih baik melakukan riset lanjutan dengan melihat fasilitas atau keunikan apa yang 
-            belum disediakan oleh kompetitor sehingga dapat lebih unggul dan menambah daya tarik pelanggan.
+            belum disediakan oleh kompetitor sehingga dapat lebih unggul dan menambah daya tarik pelanggan.<br>   
          * Untuk menentukan harga yang tepat untuk ditawarkan, pebisnis dapat melakukan pemodelan prediksi harga 
             secara statistik, contohnya dengan regresi. Untuk mendapatkan prediksi yang lebih baik dan akurat, pebisnis
             dapat mengumpulkan kembali lebih banyak data, atau menambah variabel - variabel yang mungkin memiliki 
