@@ -12,4 +12,11 @@ Project ini akan bertujuan untuk menganalisa bagaimana trend penyewaan kamar di 
 ### Step by Step
 * Data Overview and Cleansing
     Dilakukan pembersihan dataset dari data yang tidak sesuai
-* 
+* Data Analysis
+    Dilakukan untuk menganalisis keseluruhan data sehingga dapat ditarik insight dan informasi
+* Conclusion 
+    Ditarik kesimpulan dari hasil analisis berupa rekomendasi bisnis yang dapat digunakan
+
+### Business Recommendation
+* Pada data 5 tahun terakhir tidak ada feature yang berkorelasi tinggi dengan harga sewa kamar, sehingga tidak dapat disimpulkan bahwa harga yang diberikan berhubungan dengan feature pada dataset seperti minimal lama sewa, lama suatu kamar tersewa dalam satu tahun, dan banyaknya review yang diperoleh dalam 5 tahun. Sehingga, pebisnis lebih baik melakukan riset lanjutan dengan melihat fasilitas atau keunikan apa yang belum disediakan oleh kompetitor sehingga dapat lebih unggul dan menambah daya tarik pelanggan.
+* Untuk menentukan harga yang tepat untuk ditawarkan, pebisnis dapat melakukan pemodelan prediksi harga secara statistik, contohnya dengan regresi. Untuk mendapatkan prediksi yang lebih baik dan akurat, pebisnis dapat mengumpulkan kembali lebih banyak data, atau menambah variabel - variabel yang mungkin memiliki hubungan dengan harga, seperti fasilitas yang disediakan, berapa kamar yang ditawarkan, dan variable lain yang kiranya memiliki pengaruh terhadap harga.
