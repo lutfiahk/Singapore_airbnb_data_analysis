@@ -104,7 +104,7 @@ review_num_vs_price.update_layout(title="<b>Review_num vs Price</b>",title_font=
 # Web building
 import streamlit as st 
 st.set_page_config(layout="wide")
-st.title('Singapore Airbnb Analysis')
+st.title('Analysis of Airbnb in Singapore over the past 5 years ')
 
 st.image('https://www.johnlkong.com/wp-content/uploads/2018/01/hilton_hotel_header-720x245.jpg', use_column_width=True)
 st.caption('author: Lutfia Husna Khoirunnisa (https://www.linkedin.com/in/lutfiahusnakhoirunnisa)')
